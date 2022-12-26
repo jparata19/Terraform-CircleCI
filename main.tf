@@ -3,9 +3,7 @@ provider "aws" {
 }
 
 terraform {
-  required_providers {
-      source = "hashicorp/aws"
-  }
+
 
   backend "s3"{
       bucket         = "341433836158-sandbox-terraform-state"
